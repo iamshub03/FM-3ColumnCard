@@ -1,0 +1,58 @@
+*{
+    font-size: 15px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cardsContainer{
+    display: flex;
+    margin: 100px 200px;
+    color : hsl(0, 0%, 95%);
+}
+
+.cards{
+    padding: 40px;
+}
+
+.cards img, h1, p, .btn{
+    padding: 15px;
+}
+.cards p{
+    font-family: 'Lexend Deca', sans-serif;
+}
+.cards h1{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.btn{
+    width: 50%;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 100px;
+    color:black;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.card-1{
+    background-color : hsl(31, 77%, 52%);
+    border-radius: 5px 0 0 5px;
+}
+.card-2{
+    background-color : hsl(184, 100%, 22%);
+}
+.card-3{
+    background-color : hsl(179, 100%, 13%);
+    border-radius: 0 5px 5px 0;
+}
+
+.btn-1{
+    color :hsl(31, 77%, 52%);
+}
+.btn-2{
+    color: hsl(184, 100%, 22%);
+}
+.btn-3{
+    color : hsl(179, 100%, 13%);
+}
+
